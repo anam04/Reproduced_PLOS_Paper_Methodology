@@ -135,9 +135,6 @@ Each split file contains monthly `Malaria_Cases` and the six ERA5 climate predic
 
 ## Authors
 
-Anam Ahamed and Ahana. Supervised by Prof. Soumyadip Bandyopadhyay, Ashoka University.
+Anam Ahamed and Ahana
 <!-- Add surnames and any other contributors. -->
 
-## Citation
-
-If you use this code, please cite the original paper (Hussain et al., 2025) and link to this repository.
