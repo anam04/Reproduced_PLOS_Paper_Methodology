@@ -1,0 +1,5 @@
+district,district_key,year,experiment,model_or_file,source_file,test_observations,test_RMSE,test_MAE,test_MASE
+North Goa,north_goa,2018,experiment_27,north_goa_2018_forecasts,results/experiment_27/north_goa_2018_forecasts.csv,12,11.835359035704998,9.434168649563945,0.2945985749306213
+North Goa,north_goa,2019,experiment_22_branch_a,north_goa_2019_predictions,results/experiment_22_branch_a/predictions/north_goa_2019_predictions.csv,12,13.465892686740865,10.025130292619288,0.3275740327064165
+South Goa,south_goa,2018,district_sarima,sarima_south_goa_2018_predictions,results/predictions/district_sarima/sarima_south_goa_2018_predictions.csv,12,7.8539937452635655,6.3036868187838175,0.2898246813233939
+South Goa,south_goa,2019,experiment_18_model_selection,experiment_18_south_goa_2019_predictions,results/experiment_18_model_selection/predictions/experiment_18_south_goa_2019_predictions.csv,12,2.3726155663067594,1.7608099704961508,0.08808637684608155
