@@ -56,21 +56,41 @@ Models chosen on validation (Experiment 25): log-Ridge (NG 2018), log-SVR (NG 20
 The scripts locate data and results relative to the repository root (two levels above each script). Expected layout:
 
 ```
-repo-root/
+Reproduced_PLOS_Paper_Methodology/
+├── README.md
+├── corrected_a_branch_results.md
 ├── data/
 │   └── processed/
-│       └── district_splits/        # *_train.csv and *_test.csv (see Data)
-├── results/                        # created by the scripts
+│       └── district_splits/
+│           ├── north_goa_2018_train.csv
+│           ├── north_goa_2018_test.csv
+│           ├── north_goa_2019_train.csv
+│           ├── north_goa_2019_test.csv
+│           ├── south_goa_2018_train.csv
+│           ├── south_goa_2018_test.csv
+│           ├── south_goa_2019_train.csv
+│           └── south_goa_2019_test.csv
 ├── src/
-│   └── experiments/                # experiment_*.py scripts
-├── corrected_branch_a_results.md
-├── historical_best_test_benchmarks.csv
-├── all_recomputed_test_metrics.csv
-├── all_monthly_forecasts.csv
-├── all_validation_candidates.csv
-└── within_experiment_validation_leaders.csv
-```
-<!-- Edit this tree to match how you actually organise the repository. -->
+│   └── experiments/
+│       ├── experiment_14_district_xgb_arma_rebuilt.py
+│       ├── experiment_17_district_hybrids.py
+│       ├── experiment_18_model_selection.py
+│       ├── experiment_21_north_2019_log_sarima.py
+│       ├── experiment_22_branch_a_benchmark.py
+│       ├── experiment_23_direct_forecasting.py
+│       ├── experiment_25_independent_selection.py
+│       ├── experiment_26_targeted_optimisation.py
+│       ├── experiment_27_north_goa_decomposition.py
+│       ├── experiment_28_peak_sensitive_direct.py
+│       └── experiment_29_consolidation.py
+└── results/
+    └── summary/
+        ├── corrected_branch_a_results.md
+        ├── all_recomputed_test_metrics.csv
+        ├── historical_best_test_benchmarks.csv
+        ├── all_monthly_forecasts.csv
+        ├── all_validation_candidates.csv
+        └── within_experiment_validation_leaders.csv
 
 ### Scripts
 
