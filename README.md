@@ -155,6 +155,6 @@ Each split file contains monthly `Malaria_Cases` and the six ERA5 climate predic
 
 ## Authors
 
-Anam Ahamed and Ahana
+Anam Ahamed 
 <!-- Add surnames and any other contributors. -->
 
