@@ -138,6 +138,25 @@ python src/experiments/experiment_25_independent_selection.py
 python src/experiments/experiment_29_consolidation.py
 ```
 
+## Forecasting Results
+
+### Observed vs Predicted Malaria Cases
+
+![Monthly malaria forecasts](figures/figure1_exp25_monthly_forecasts.png)
+
+[Download high-resolution PDF](figures/figure1_exp25_monthly_forecasts.pdf)
+
+### RMSE Comparison with Seasonal-Naive Baseline
+
+![RMSE comparison](figures/figure2_rmse_vs_seasonal_naive.png)
+
+[Download high-resolution PDF](figures/figure2_rmse_vs_seasonal_naive.pdf)
+
+These figures present Experiment 25 results for North
+and South Goa in 2018 and 2019, illustrating variation
+in forecasting performance across settings.
+
+
 ## Data
 
 Each split file contains monthly `Malaria_Cases` and the six ERA5 climate predictors. Relative humidity and wind speed were computed per grid cell before spatial averaging.
