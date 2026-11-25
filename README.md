@@ -1,11 +1,11 @@
 # Reproducing Hussain et al. (2025): Malaria Forecasting in Goa
 
-A leakage-free replication of the forecasting methodology in:
+A replication of the forecasting methodology in:
 
 > Hussain et al. (2025). *Climate-based malaria forecasting in Goa using time-series, machine-learning and hybrid ML–ARMA models.* PLOS Global Public Health 5(10): e0004500. https://doi.org/10.1371/journal.pgph.0004500
 <!-- Check the title above against the paper and edit if needed. -->
 
-This repository is part of an undergraduate thesis on **evidence-grounded formal verification of epidemiological forecasts** (Ashoka University). The replication provides the forecasts that later stages of the thesis verify, and it treats the original paper as a **specification** that the implementation must satisfy.
+This repository is part of an undergraduate thesis. The replication provides the forecasts that later stages of the thesis verify, and it treats the original paper as a **specification** that the implementation must satisfy. The motivation to replicate this work is more on the side of an exploratory phase in my research, I simply wanted to understand how forecasting models actually work, beyond simply reading about them - I felt it would be a good way to learn hands-on, understand the challenges involved, and become more familiar with the methods. And since my proposed research involved verifying forecasts(to understand exactly which factor explains the malaria cases- using the concept of Explainability, using SHAP(feature importance method)). I thought this would also give me a practical starting point to build upon.
 
 ---
 
